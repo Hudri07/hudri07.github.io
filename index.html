@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio web </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Free Website Template">
+        <meta name="description" content="Hai, saya Hudri. Silahkan bisa mendownload app web ini." >
+        <meta name="theme-color" content="#F96D00">
+
+        <!-- manifest -->
+        <link rel="manifest" href="manifest.json">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- icon shortcut -->
+        <link rel="shortcut icon" href="/img/icon-pwa192x192.png" type="image/png">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only"></span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4 sticky-lg-top vh-100">
+                    <div class="d-flex flex-column h-100 text-center overflow-auto shadow">
+                        <img class="w-100 img-fluid mb-4" src="img/profile.jpg" alt="Image">
+                        <h1 class="text-primary mt-2">Asmalik Hudri</h1>
+                        <div class="mb-4" style="height: 22px;">
+                            <h4 class="typed-text-output d-inline-block text-light"></h4>
+                            <div class="typed-text d-none">Front-End Developer, Mahasiswa STMIK YMI Tegal</div>
+                        </div>
+                        <div class="d-flex justify-content-center mt-auto mb-3">
+                            <a class="btn btn-secondary btn-square mx-1" href="https://github.com/hudri07"><i class="fab fa-github"></i></a>
+                            <a class="btn btn-secondary btn-square mx-1" href="https://wa.me/+6281952407252"><i class="fab fa-whatsapp"></i></a>
+                            <a class="btn btn-secondary btn-square mx-1" href="https://www.linkedin.com/in/hudrii-ye-34a09b293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-secondary btn-square mx-1" href="https://www.instagram.com/hudri366"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-secondary btn-square mx-1" href="mailto:hudri366@gmail.com"><i class="fas fa-envelope"></i><a>
+                        </div>
+                        <div class="d-flex align-items-end justify-content-between border-top">
+                            <a href="#certificate" class="btn w-50 border-end">Certificate</a>
+                            <a href="#contact" class="btn w-50 btn-scroll">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <!-- About Start -->
+                    <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="title pb-3 mb-5">About Me</h1>
+                        <p>Saya Asmalik Hudri. Saya berusia 20 tahun. Sekarang saya sedang menempuh pendidikan Sarjana di STMIK YMI Tegal. 
+                            Saya memiliki ketertarikan dengan Cryptocurrency khususnya Web3 dan airdrop. Saya sering join project airdrop dan Web3
+                        di komunitas Telegram atau X. Bagi saya, bermain Cryptocurrency itu menyenangkan, disamping bisa mengisi waktu luang saya,
+                        Cryptocurrency juga bisa menghasilkan cuan.</p>
+                        <div class="row mb-4">
+                            <div class="col-sm-6 py-1">
+                                <span class="fw-medium text-primary">Name:</span> Asmalik Hudri
+                            </div>
+                            <div class="col-sm-6 py-1">
+                                <span class="fw-medium text-primary">Birthday:</span> Bandar Lampung, 31 Maret 2024
+                            </div>
+                            <div class="col-sm-6 py-1">
+                                <span class="fw-medium text-primary">Phone:</span> +62 819-5240-7252
+                            </div>
+                            <div class="col-sm-6 py-1">
+                                <span class="fw-medium text-primary">Email:</span> hudri366@gmail.com
+                            </div>
+                            <div class="col-sm-6 py-1">
+                                <span class="fw-medium text-primary">Address:</span> Dukuhlo RT.04/04, Kec.Lebaksiu Kab.Tegal
+                            </div>
+                            <div class="col-sm-6 py-1">
+                                <span class="fw-medium text-primary">Hobbies:</span> Baca novel | Airdrop | Main Game
+                            </div>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-md-4 col-lg-6 col-xl-4">
+                                <div class="d-flex bg-secondary p-4 align-items-center">
+                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">20</h1>
+                                    <div class="ps-3 d-flex flex-column align-items-center justify-content-center">
+                                        <p class="mb-0">Tahun</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-lg-6 col-xl-4">
+                                <div class="d-flex bg-secondary p-4">
+                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">15</h1>
+                                    <div class="ps-3">
+                                        <p class="mb-0">Project</p>
+                                        <h5 class="mb-0">Github</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-6 col-xl-4">
+                                <div class="d-flex bg-secondary p-4">
+                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">50</h1>
+                                    <div class="ps-3">
+                                        <p class="mb-0">Project</p>
+                                        <h5 class="mb-0">Airdrop</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- About End -->
+
+                    <!-- Skills Start -->
+                    <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="title pb-3 mb-5">Skills</h1>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="skill mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <p class="mb-2">HTML</p>
+                                        <p class="mb-2">40%</p>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="skill mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <p class="mb-2">CSS</p>
+                                        <p class="mb-2">40%</p>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="skill mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <p class="mb-2">Javascript</p>
+                                        <p class="mb-2">30%</p>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="skill mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <p class="mb-2">Microsoft Word</p>
+                                        <p class="mb-2">70%</p>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="skill mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <p class="mb-2">Microsoft Excel</p>
+                                        <p class="mb-2">70%</p>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="skill mb-4">
+                                    <div class="d-flex justify-content-between">
+                                        <p class="mb-2">Powerpoint</p>
+                                        <p class="mb-2">50%</p>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Skills End -->
+
+                    <!-- Expericence Start -->
+                    <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="title pb-3 mb-5">Expericence</h1>
+                        <div class="border-start border-2 border-light pt-2 ps-5">
+                            <div class="position-relative mb-4">
+                                <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
+                                <h5 class="mb-1">Berdagang</h5>
+                                <p class="mb-2">Pedagang Buah | <small>2023</small></p>
+                                <p>Saya pernah berdagang sebagai pedagang buah di Desa Dukuhlo</p>
+                            </div>
+                            <div class="position-relative mb-4">
+                                <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
+                                <h5 class="mb-1">Praktek Kerja Lapangan</h5>
+                                <p class="mb-2">Athifa Printing Lebaksiu | <small>2021</small></p>
+                                <p>Saya pernah Praktek Kerja Lapangan (PKL) di Athifa Printing Lebaksiu</p>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Expericence End -->
+
+                    <!-- Education Start -->
+                    <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="title pb-3 mb-5">Education</h1>
+                        <div class="border-start border-2 border-light pt-2 ps-5">
+                            <div class="position-relative mb-4">
+                                <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
+                                <h5 class="mb-1">STMIK YMI Tegal</h5>
+                                <p class="mb-2">Teknik Informatika | <small>2022 - Sekarang</small></p>
+                            </div>
+                            <div class="position-relative mb-4">
+                                <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
+                                <h5 class="mb-1">SMK Negeri 1 Slawi</h5>
+                                <p class="mb-2">Teknik Komputer dan Jaringan | <small>2019 - 2022</small></p>
+                            </div>
+                            <div class="position-relative mb-4">
+                                <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
+                                <h5 class="mb-1">SMP Negeri 1 Lebaksiu</h5>
+                                <p class="mb-2">SMP Negeri 1 Lebaksiu | <small>2016 - 2019</small></p>
+                            </div>
+                            <div class="position-relative mb-4">
+                                <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
+                                <h5 class="mb-1">SD Negeri Dukuhlo 01</h5>
+                                <p class="mb-2">SD Negeri Dukuhlo 01 | <small>2010 - 2016</small></p>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Education End -->
+
+                    <!-- Certificate Start -->
+                    <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s" id="certificate">
+                        <h1 class="title pb-3 mb-5">Certificate</h1>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-12 text-center mb-2">
+                                        <ul class="list-inline mb-4" id="certificate-flters">
+                                            <li class="btn btn-secondary active"  data-filter="*"><i class="fa fa-star me-2"></i>All</li>
+                                            <li class="btn btn-secondary" data-filter=".first"><i class="fa fa-laptop-code me-2"></i>Oracle</li>
+                                            <li class="btn btn-secondary" data-filter=".second"><i class="fa fa-mobile-alt me-2"></i>Office</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row certificate-container">
+                                    <div class="col-md-6 mb-4 certificate-item first">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <img class="img-fluid w-100" src="img/database_foundation.jpg" alt="">
+                                            <div class="certificate-btn d-flex align-items-center justify-content-center">
+                                                <a href="img/database_foundation.jpg" data-lightbox="certificate">
+                                                    <i class="bi bi-plus text-light"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4 certificate-item second">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <img class="img-fluid w-100" src="img/ukom_office.jpg" alt="">
+                                            <div class="certificate-btn d-flex align-items-center justify-content-center">
+                                                <a href="img/ukom_office.jpg" data-lightbox="certificate">
+                                                    <i class="bi bi-plus text-light"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4 certificate-item first">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <img class="img-fluid w-100" src="img/java_fundamental.jpg" alt="">
+                                            <div class="certificate-btn d-flex align-items-center justify-content-center">
+                                                <a href="img/java_fundamental.jpg" data-lightbox="certificate">
+                                                    <i class="bi bi-plus text-light"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Certificate End -->
+
+                    <!-- Portofolio Start -->
+                    <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="title pb-3 mb-5">Portfolio</h1>
+                        <div class="owl-carousel portfolio-carousel">
+                            <!-- Portofolio1 -->
+                            <div class="item text-left">
+                                <img class="img-fluid " src="img/hoodtees.png" style="width: 80%; height: auto;">
+                                <div class="pt-3">
+                                    <h5 class="text-primary fs-5 mb-1">HoodTees</h5>
+                                    <p class="fs-6 mb-2">Website E-commerce Hoodie & T-shirt</p>
+                                    <a href="https://hudri07.github.io/hoodtees.github.io/" class="btn btn-primary mt-2" target="_blank">Demo</a>
+                                </div>
+                            </div>
+                            <!-- portofolio2 -->
+                            <div class="item text-left">
+                                <img class="img-fluid" src="img/word-counter.png" style="width: 80%; height: auto;">
+                                <div class="pt-3">
+                                    <h5 class="text-primary fs-5 mb-1">Word Counter</h5>
+                                    <p class="fs-6 mb-2">Website penghitung angka</p>
+                                    <a href="https://hudri07.github.io/word-counter.github.io/" class="btn btn-primary mt-2" target="_blank">Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Portfolio End -->
+
+                    <!-- Contact Start -->
+                    <section class="py-5 wow fadeInUp" data-wow-delay="0.1s" id="contact">
+                        <h1 class="title pb-3 mb-5">Contact Me</h1>
+						<p class="mb-4">Silahkan bisa menghubungi saya</p>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control border-0 bg-secondary" id="name" placeholder="Your Name">
+                                        <label for="name">Your Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control border-0 bg-secondary" id="email" placeholder="Your Email">
+                                        <label for="email">Your Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control border-0 bg-secondary" id="subject" placeholder="Subject">
+                                        <label for="subject">Subject</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control border-0 bg-secondary" placeholder="Leave a message here" id="message" style="height: 200px"></textarea>
+                                        <label for="message">Message</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </section>
+                    <!-- Contact End -->
+
+                    <!-- Footer Start -->
+                    <section class="wow fadeIn" data-wow-delay="0.1s">
+                        <div class="bg-secondary text-light text-center p-5">
+                            <div class="d-flex justify-content-center mb-4">
+                                <a class="btn btn-dark btn-square mx-1" href="https://github.com/hudri07"><i class="fab fa-github"></i></a>
+                                <a class="btn btn-dark btn-square mx-1" href="https://wa.me/+6281952407252"><i class="fab fa-whatsapp"></i></a>
+                                <a class="btn btn-dark btn-square mx-1" href="https://www.linkedin.com/in/hudrii-ye-34a09b293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-dark btn-square mx-1" href="https://www.instagram.com/hudri366"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-secondary btn-square mx-1" href="mailto:hudri366@gmail.com"><i class="fas fa-envelope"></i><a></a>
+                            </div>
+							
+                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+							<p class="m-0 justify-content-center">&copy; All Rights Reserved.</p>
+                        </div>
+                    </section>
+                    <!-- Footer End -->
+                </div>
+            </div>
+        </div>
+
+        <!-- indexDB -->
+        <script src="indexedDB.js"></script>
+        
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/typed/typed.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+
+        <!-- firebase -->
+        <script type="module">
+            // Import Firebase SDK functions
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
+            import { getMessaging, getToken, onMessage } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-messaging.js";
+            
+            // Firebase configuration for your web app
+            const firebaseConfig = {
+                apiKey: "AIzaSyA8aqfXCcN5Vz0q0Iof01ybCMJ9LsU2nys",
+                authDomain: "portofolio-pwa.firebaseapp.com",
+                projectId: "portofolio-pwa",
+                storageBucket: "portofolio-pwa.appspot.com",
+                messagingSenderId: "746210873661",
+                appId: "1:746210873661:web:ca36a3dce8cacf382cb554"
+            };
+            
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+            const messaging = getMessaging(app);
+            // Function to show thank you notification once
+            function showThankYouNotification() {
+                const isThankYouShown = localStorage.getItem("thankYouNotificationShown");
+                if (!isThankYouShown) {
+                    console.log("Showing thank you notification.");
+                    const options = {
+                        body: "Thank you for allowing notifications!",
+                        icon: "/img/icon-pwa192x192.png",
+                        vibrate: [200, 100, 200]
+                    };
+                    new Notification("New Message!", options);
+                    localStorage.setItem("thankYouNotificationShown", "true");
+                } else {
+                    console.log("Thank you notification already shown.");
+                }
+            }
+            // Check and reset notification permission state if changed
+            const previousPermission = localStorage.getItem("notificationPermission");
+            if (previousPermission !== Notification.permission) {
+                if (Notification.permission === "granted") {
+                    // Permission is now granted, reset the thank you notification flag
+                    localStorage.removeItem("thankYouNotificationShown");
+                }
+                // Update permission state in localStorage
+                localStorage.setItem("notificationPermission", Notification.permission);
+            }
+            // Request Notification Permission
+            if (Notification.permission === "default") {
+                console.log("Requesting notification permission...");
+                Notification.requestPermission().then((permission) => {
+                    if (permission === "granted") {
+                        console.log("Notification permission granted.");
+                        showThankYouNotification();
+                    } else {
+                        console.log("Notification permission denied.");
+                    }
+                }).catch((error) => {
+                    console.error("Permission request error:", error);
+                });
+            } else if (Notification.permission === "granted") {
+                // If permission is already granted, show thank you notification if needed
+                showThankYouNotification();
+            }
+            // Get the FCM token
+            getToken(messaging, { 
+                vapidKey: "BHFLl-wJLoorWVA47sQitaC4SP_kls8q4PTgXU9tmmhOc3d6wj_RRPMS9DWHC-iy8HKfrxSICf1QgDJXrcwaDyk",
+                serviceWorkerRegistration: await navigator.serviceWorker.ready 
+            })
+            .then((currentToken) => {
+                if (currentToken) {
+                    console.log("Device token:", currentToken);
+                } else {
+                    console.log("No registration token available.");
+                }
+            })
+            .catch((err) => {
+                console.error("An error occurred while retrieving token:", err);
+            });
+            // Handle foreground messages
+            onMessage(messaging, (payload) => {
+                console.log("FCM message received in the foreground:", payload);
+                const { title, body, icon } = payload.notification;
+                const options = {
+                    body: body,
+                    icon: icon || "/img/icon-pwa192x192.png",
+                    badge: "/img/icon-pwa192x192.png",
+                    vibrate: [200, 100, 200]
+                };
+                new Notification(title, options);
+            });
+        </script>
+
+        <!-- register service worker -->
+        <script>
+            window.addEventListener("load", () => {
+                if ("serviceWorker" in navigator) {
+                    navigator.serviceWorker
+                        .register('sw.js') // Pastikan jalur ini benar
+                        .then((registration) => {
+                            console.log("ServiceWorker registered with scope:", registration.scope);
+                           //  messaging.useServiceWorker(registration);
+                        })
+                        .catch((error) => {
+                            console.log("ServiceWorker registration failed:", error);
+                        });
+                }
+            });
+        </script>
+    </body>
+</html>

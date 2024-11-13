@@ -1,0 +1,45 @@
+{
+  "name": "Portfolio Web",
+  "short_name": "Portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2C3E50",
+  "description": "Hai, saya Hudri. Silahkan bisa mendownload app web ini.",
+  "orientation": "portrait",
+  "gcm_sender_id": "746210873661",
+  "icons": [
+    {
+      "src": "/img/icon-pwa144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/icon-pwa192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/img/ss2.png",
+      "sizes": "843x620",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/screenshot.png",
+      "sizes": "640x320",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "portfolio"
+    }
+  ]
+}
