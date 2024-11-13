@@ -194,10 +194,10 @@
 .portfolio-carousel .owl-dot.active {
   background: var(--primary);
 }
-.img-fluid {
+.grayscale-hover {
   filter: grayscale(100%);
+  transition: filter 0.3s ease;
 }
-.img-fluid:hover{
-  fliter: grayscale(0);
-  
+.grayscale-hover:hover {
+  filter: grayscale(0%);
 }
