@@ -195,3 +195,47 @@
   background: var(--primary);
 }
 
+/********** Media Query untuk layar kecil **********/
+@media (max-width: 424px) {
+  body {
+    overflow-x: hidden;
+  }
+  
+  .container {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .portfolio-carousel .owl-dots {
+    margin-top: 15px;
+  }
+
+  .portfolio-carousel .owl-dot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .btn-square,
+  .btn-sm-square,
+  .btn-lg-square {
+    width: 30px;
+    height: 30px;
+  }
+
+  .certificate-item .certificate-btn {
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    top: 20px;
+    left: 20px;
+  }
+
+  .title::before,
+  .title::after {
+    left: 5px;
+  }
+
+  .back-to-top {
+    right: 10px;
+    bottom: 10px;
+  }
+}
